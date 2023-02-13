@@ -66,6 +66,14 @@ public class ProductDB {
             myMusic.setArtist("Pink Floyd");
             myMusic.setLabel("Columbia Group");
             p = myMusic;
+        } else if(productCode.equalsIgnoreCase("kdl43")){
+            TV myTV = new TV();
+            myTV.setCode(productCode);
+            myTV.setDescription("SONY BRAVIA SMART TV KDL43WF663");
+            myTV.setPrice(819);
+            myTV.setManufacture("Sony");
+            myTV.setScreenSize(55);
+            p = myTV;
         }
         return p;
     }
