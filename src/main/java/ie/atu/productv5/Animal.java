@@ -47,13 +47,8 @@ public class Animal implements Printable{
         this.price = price;
     }
 
-    public static int getCount() {
-        return count;
-    }
 
-    public static void setCount(int count) {
-        Animal.count = count;
-    }
+
 
     @Override
     public String toString() {
@@ -68,6 +63,9 @@ public class Animal implements Printable{
     public String getPriceFormatted() {
         NumberFormat currency = NumberFormat.getCurrencyInstance();
         return currency.format(price);
+    }
+    public static int getCount() {
+        return count;
     }
 
 }

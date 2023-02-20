@@ -1,6 +1,5 @@
 package ie.atu.productv5;
 
-import ie.atu.productv4.Product;
 
 
 import java.util.Scanner;
@@ -33,6 +32,9 @@ public class ProductApp {
             }
 
             System.out.println();
+
+            //int combined = 0;
+            //combined = Product.getCount() + Animal.getCount();
             System.out.println("Product count: " + Product.getCount() + "\n");
 
             // see if the user wants to continue

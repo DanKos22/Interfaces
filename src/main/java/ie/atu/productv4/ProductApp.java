@@ -1,6 +1,8 @@
 package ie.atu.productv4;
 
 
+import ie.atu.productv5.Animal;
+
 import java.util.Scanner;
 
 public class ProductApp {
@@ -32,6 +34,7 @@ public class ProductApp {
 
             System.out.println();
             System.out.println("Product count: " + Product.getCount() + "\n");
+
 
             // see if the user wants to continue
             System.out.print("Continue? (y/n): ");
